@@ -46,7 +46,7 @@ export default function AddPostForm() {
 
         <label htmlFor="postAuthor">Author:</label>
         <select id="postAuthor" value={userId} onChange={onAuthorChanged}>
-          <option value=""></option>
+          <option value="">-- Select an author --</option>
           {users.map((user) => (
             <option key={user.id} value={user.id}>
               {user.name}
