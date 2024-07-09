@@ -1,19 +1,31 @@
-# 03 React Redux Thunk Middleware in Redux Toolkit for Async Actions with Axios JsonPlaceHolder
+# 04-blog-app-crud-redux-toolkit-react-router
 
 - (00:00) Intro
-- (00:15) Welcome
-- (00:26) Prerequisite knowledge
-- (00:43) Faster Pace Ahead
-- (01:06) What is a thunk?
-- (01:34) Changing the initial state
-- (02:58) Adjusting to the state shape
-- (04:44) Creating a fetchPosts async thunk
-- (07:02) Adding extraReducers and builder cases
-- (10:08) Dispatching fetchPosts async thunk
-- (13:51) Building a PostsExcerpt component
-- (15:31) Displaying the loading state
-- (19:00) Creating a fetchUsers async thunk
-- (21:50) Dispatching fetchUsers at App load time
-- (23:25) Creating an addNewPost async thunk
-- (25:39) Dispatching the addNewPost async thunk
-- (29:15) Quick Correction
+- (00:16) Welcome
+- (00:29) Prerequisite knowledge
+- (00:56) Starter Code Overview
+- (01:41) selectPostById selector
+- (03:04) SinglePostPage component
+- (05:06) Install React Router
+- (05:54) Applying React Router to index.js
+- (07:28) Layout component
+- (08:38) App.js Routing
+- (10:43) useParams in SinglePostPage
+- (11:48) PostsExcerpt component
+- (12:54) Testing Our Code
+- (13:40) Adding a Blog Header
+- (16:18) Adding an Edit Post link
+- (17:00) EditPostForm component
+- (21:24) updatePost async thunk
+- (22:38) builder case for updatePost
+- (24:46) Dispatching updatePost
+- (25:13) Routing for EditPostForm
+- (25:58) Testing updatePost
+- (27:13) deletePost async thunk
+- (29:13) builder case for deletePost
+- (30:14) Dispatching deletePost
+- (31:59) useNavigate in AddPostForm
+- (32:43) Testing All CRUD Operations
+- (34:13) updatePost fix for fake API testing
+- (36:38) Verifying reaction names
+- (37:49) Loading API posts data at app load
