@@ -45,7 +45,7 @@ root.render(
 ## (02:17) JSON Server
 
 - install json-server as dev-dependency:\
-`npm i -D json-server`
+`npm i -D json-server@0.17.4`
 
 - start json-server locally:\
 `./node_modules/json-server/lib/cli/bin.js --watch data/db.json --port 3500`
